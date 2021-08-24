@@ -1,0 +1,175 @@
+/* Header Section */
+/* logo */
+
+header{
+    background: #101446;
+    height: 100px;
+}
+header .logo{
+    line-height: 100px;
+}
+header .logo img{
+    display: inline-block;
+    width: 120px;
+}
+
+/* Menu */
+
+header .menu ul{
+    text-align: right;
+}
+header .menu ul li{
+    display: inline-block;
+    margin-left: -5px;
+}
+header .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    line-height: 100px;
+    transition: .9s;
+}
+header .menu ul li a:hover{
+    color: coral;
+}
+
+/* Banner Section */
+
+.banner_section{
+    padding:230px 0 200px 0;
+    color: rgb(255, 255, 255);
+    background-image: url(Image/intro-bg.jpg)!important;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.banner_section p{
+    padding: 30px;
+    font-size: 17px;
+    line-height: 25px;
+}
+.banner_section .btn{
+    color: white;
+    background-color: #3078B6;
+}
+
+/* Team Section */
+
+/* team header */
+
+.team_section{
+    background-color: #BAC1F3;
+    padding:70px 0;
+}
+.team_section .team_header h1{
+    font-size: 45px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+/* Team Card */
+
+.team_section .team_card{
+    width: 70%;
+}
+.team_section .team_card .image img{
+    max-width: 100%;
+}
+.team_section .team_card h5{
+    padding: 10px 0;
+}
+.team_section .team_card .btn{
+    color: white;
+    background-color: #3078B6;
+}
+
+/* About Section */
+
+/* About left */
+
+.about_section{
+    padding: 80px 0;
+    background: #C2D4EA;
+}
+.about_section h1{
+    padding: 35px 0;
+}
+.about_section .about_left{
+    padding: 25px;
+}
+.about_section .about_left .image{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.about_section .about_left img{
+    width: 100%;
+}
+.about_section .about_left ul{
+    list-style: none;
+}
+.about_section .about_left ul li{
+    line-height: 28px;
+}
+.about_section .about_left p{
+    color: #494d52;
+}
+
+/* About Right */
+
+.about_section .about_right h2{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.about_section .about_right span{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.about_section .about_right p{
+    font-size: 20px;
+    color: rgb(87, 87, 87);
+}
+
+/* Contact Section */
+
+.contact_section{
+    padding: 60px 0;
+    background-color: #F5F5F5;
+}
+.contact_section h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* Conact right */
+
+.contact_section form label{
+    font-weight: 700;
+    margin-top: 10px;
+}
+.contact_section form textarea{
+    height: 100px;
+}
+.contact_section .btn{
+    margin-top: 20px;
+    background: #54BDDD;
+    color: white;
+}
+
+/* Footer Section */
+
+.footer_section{
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    line-height: 20px;
+    background-color: #0062D3;
+}
+.footer_section a{
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+/* The End */
